@@ -38,8 +38,7 @@ USE shopifydb;
 
 4. Build and run the app using springboot app
 
-bash
-mvn package
+5. First Add warehouse data and then add product. ( it will throw error if you do vice versa as warehouse location should be defined before creating product) 
 
 
 The app will start running at <http://localhost:8080/welcome>.
